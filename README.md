@@ -13,13 +13,11 @@
 
 
 
-This set up asumes that you already have your monitoring server with InfuxDB and Grafana up and running.
-
 > **My server (where I have InfuxDB and Grafana istalled and running) is called "*stats1*" and it has a fixed IP address *10.0.1.25/24*.**
 
 
 
-**To go though that required previos set up, you may have a look at: [TIG](https://65007.github.io/TIG/)**
+***To go though that required previous set up, you may have a look at: [TIG](https://65007.github.io/TIG/)***
 
 
 
