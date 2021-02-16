@@ -6,7 +6,7 @@ This set up asumes that you already have your monitoring server with InfuxDB and
 
 
 
-**To go though that required previos set up, you may have a look at: https://65007.github.io/TIG/**
+**To go though that required previos set up, you may have a look at: [TIG](https://65007.github.io/TIG/)**
 
 
 
