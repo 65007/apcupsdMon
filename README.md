@@ -1,4 +1,16 @@
-# Create InfluxDB database to hold data incoming from the server that has the UPS connected and apcupsd running
+# Create InfluxDB database to hold Telegraf data incoming from the server that has the UPS connected and apcupsd running
+
+
+
+## Menu?
+
+- We will install Telegraf in a server that is connected to an APC UPS (already running ***apcupsd***) and push data to our already running InfluxDB database in our stats server (in this case called "***stats1***").
+- This set up asumes that you already have your monitoring server (*stats1*) with InfuxDB and Grafana up and running.
+- Will use Telegraf to gather data on yoda's system metrics.
+- Will use Telegraf to gather data on our APC UPS metrics.
+- Also asumes that apcupsd is already up and running in the server you have the UPS connected (in this case called "***yoda***").
+
+
 
 This set up asumes that you already have your monitoring server with InfuxDB and Grafana up and running.
 
