@@ -9,6 +9,7 @@
 - Will use Telegraf to gather data on yoda's system metrics.
 - Will use Telegraf to gather data on our APC UPS metrics.
 - Also asumes that apcupsd is already up and running in the server you have the UPS connected (in this case called "***yoda***").
+- Will set up two new dashboards in our Grafana service in order to display yoda's system metrics and the UPS metrics.
 
 
 
